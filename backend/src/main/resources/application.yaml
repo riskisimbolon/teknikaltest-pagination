@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+external:
+  api:
+    users: https://dummyjson.com
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web.client.RestClient: DEBUG
